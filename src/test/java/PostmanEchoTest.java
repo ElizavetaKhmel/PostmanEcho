@@ -17,7 +17,7 @@ public class PostmanEchoTest {
           // Проверки
                 .then()
                 .statusCode(200)
-                .body("data",equalTo("Ночь, улица, фонарь, аптека, бессмысленный и тусклый свет;"))
+                .body("data",equalTo("Ночь, улица, фонарь, аптека;"))
         ;
     }
 }
